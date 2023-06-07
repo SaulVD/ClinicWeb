@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!----------------------------------Estilos---------------------------------->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/movile.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <link
+      rel="stylesheet"
+      href="css/styles.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!----------------------------------scripts---------------------------------->
+
+    <script src="wow.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0bec8e7462.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="jquery.tinycarousel.js"></script>
+
+    <script src="responsiveslides.min.js"></script>
+    <!-----Slide principal----->
+    <script>
+      new WOW().init();
+    </script>
+    <title>Cirugía Plastica</title>
+  </head>
+  <body>
+    <!----------------------------------Modal---------------------------------->
+    <div
+      id="modal"
+      class="wow animate__animated animate__jackInTheBox contenedortrans"
+    >
+      <div class="formulario">
+        <i id="cerrar_btn" class="fa-solid fa-rectangle-xmark fa-2x"></i>
+        <header class="contact">
+  
+        </header>
+        <form class="casilla">
+          <h1>Contact Us</h1>
+          <br />
+          <p>1-800-1234-567</p><br>
+          <p>1-800-3124-654</p>
+          <input type="text" placeholder="Name*" required />
+          <br />
+          <br />
+          <input type="text" placeholder="Email*" required />
+          <br />
+          <br />
+          <textarea
+            name=""
+            placeholder="Message*"
+            id=""
+            cols="60"
+            rows="3"
+          ></textarea>
+          <br />
+          <br />
+          <input type="submit" value="Submit" id="boo" />
+        </form>
+      </div>
+    </div>
+    <!----------------------------------Header---------------------------------->
+    <header class="movilno">
+      <div class="contenedorhead ancho">
+        <div class="numerosizquierda">
+          <div class="iconotelefono"><i class="fa-solid fa-phone"></i></div>
+          <p>1-800-1234-567</p>
+          <p>1-800-3124-654</p>
+        </div>
+        <div class="logoenmedio">
+          <img src="imagenes/logo-dark.png" alt="" />
+        </div>
+        <div class="numerosderecha">
+          <div class="iconoubicacion">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <p>2130 Fulton Street San Diego</p>
+          <p>CA 94117-1080 USA</p>
+        </div>
+      </div>
+      <ul id="header-menu">
+        <li>
+          <a href="#">
+            <div class="iconotelefono"><i class="fa-solid fa-phone"></i></div>
+            <div class="numerosizquierda">
+              <p>1-800-1234-567</p>
+              <p>1-800-3124-654</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="iconoubicacion">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="numerosderecha">
+              <p>2130 Fulton Street San Diego</p>
+              <p>CA 94117-1080 USA</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <!----------------------------------Navmenu---------------------------------->
+    <nav class="movilnav">
+      <div class="contenedorbtn ancho">
+        <div class="menu-icon" onclick="toggleMobileMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="menu">
+          <li class="btnnav"><a href="index.html" class="activo">HOME</a></li>
+          <li class="btnnav"><a href="about.html">ABOUT</a></li>
+          <li class="btnnav"><a href="team.html">TEAM</a></li>
+          <li class="btnnav"><a href="gallery.html">GALLERY</a></li>
+          <li class="btnnav"><a href="contac.html">CONTACT</a></li>
+          <li class="btnnav">
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+        </ul>
+        <div class="header-mobile">
+          <div class="numerosizquierda">
+            <div class="iconotelefono"><i class="fa-solid fa-phone"></i></div>
+            <p>1-800-1234-567</p>
+            <p>1-800-3124-654</p>
+          </div>
+          <div class="logoenmedio">
+            <img src="imagenes/logo-dark.png" alt="" />
+          </div>
+          <div class="numerosderecha">
+            <div class="iconoubicacion">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <p>2130 Fulton Street San Diego</p>
+            <p>CA 94117-1080 USA</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!----------------------------------section slide principal---------------------------------->
+
+    <section class="arribamenu ancho">
+      <div class="callbacks_container">
+        <ul class="rslides" id="slider4">
+          <li>
+            <div class="slide-content">
+              <img src="imagenes/slide-01.jpg" alt="" />
+              <div class="caption">
+                WELCOME TO THE VISAGE <br />
+                SURGERY CLINIC
+              </div>
+              <div class="capsubtitulo">
+                Our unique team approach offers clients the latest in surgical
+                <br />
+                and non-surgical cosmetic and reconstructive procedures in a
+                welcoming, safe environment.
+              </div>
+              <a class="botonslide" href="">MAKE AN APPOINTMENT</a>
+            </div>
+          </li>
+          <li>
+            <div class="slide-content">
+              <img src="imagenes/slide-02.jpg" alt="" />
+              <div class="caption2">
+                WE CAN HELP YOU GET HE <br />
+                BODY OF YOUR DREAMS
+              </div>
+              <div class="capsubtitulo2">
+                Our team aims to deliver high-quality surgical and <br />
+                non-surgical services to all our customers.
+              </div>
+              <a class="botonslide" href="">MAKE AN APPOINTMENT</a>
+            </div>
+          </li>
+          <li>
+            <div class="slide-content">
+              <img src="imagenes/slide-03.jpg" alt="" />
+              <div class="caption2">
+                PROFESSIONAL PLASTIC <br />
+                SURGERY SERVICES
+              </div>
+              <div class="capsubtitulo2">
+                Get the look you always wanted with our highly professional
+                <br />
+                cosmetic and plastic surgery services.
+              </div>
+              <a class="botonslide" href="">MAKE AN APPOINTMENT</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <br /><br /><br />
+    <!----------------------------------section horarios---------------------------------->
+    <section>
+      <div class="horario ancho">
+        <table
+          id="dim1"
+          class="tabla tabla1 wow animate__animated animate__fadeInLeft"
+        >
+          <tr>
+            <th colspan="2">
+              <i class="far fa-clock"></i>&nbsp&nbsp OPENING HOURS
+            </th>
+          </tr>
+          <tr>
+            <td>Mon–Fri</td>
+            <td>8:00am–7:00pm</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>9:00am–5:00pm</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>9:00am–5:00pm</td>
+          </tr>
+        </table>
+        <table
+          id="dim2"
+          class="tabla wow animate__animated animate__fadeInRight"
+        >
+          <tr>
+            <th>
+              <i class="far fa-calendar-check"></i>&nbsp&nbsp DOCTORS' TIMETABLE
+            </th>
+          </tr>
+          <tr>
+            <td>
+              The following is for guidance only to help you plan your
+              appointment with a preferred doctor or nurse. It does not
+              guarantee availability as the doctors or nurses may sometimes be
+              attending to other duties.
+            </td>
+          </tr>
+        </table>
+        <table id="dim3" class="tabla wow animate__animated animate__fadeInUp">
+          <tr>
+            <th><i class="fas fa-phone-alt"></i>&nbsp&nbsp APPOINTMENTS</th>
+          </tr>
+          <tr>
+            <td>
+              The first step towards a healthy life is to schedule an
+              appointment. Please contact our office by phone or complete the
+              appointment request form.
+            </td>
+          </tr>
+        </table>
+        <table
+          id="dim4"
+          class="tabla wow animate__animated animate__fadeInDown"
+        >
+          <tr>
+            <th><i class="fas fa-first-aid"></i>&nbsp&nbsp EMERGENCY CASES</th>
+          </tr>
+          <tr>
+            <td>
+              <span>1-800-1234-567</span><br />
+              Call us!
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!----------------------------------section imagenesarriba---------------------------------->
+    <section class="animacionarriba wow animate__animated animate__fadeIn">
+      <div class="efectimagenes ancho">
+        <div class="imagen-contenedor animate__animated animate__fadeInUp">
+          <img src="imagenes/arriba1.jpg" alt="" />
+          <div class="imagen-recuadro">
+            <div class="imagen-texto-principal">
+              <p>EYELID SURGERY</p>
+            </div>
+            <div class="imagen-texto-secundario">
+              <p>BOOK AN APPOINTMENT</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="imagen-contenedor wow animate__animated animate__fadeInUp">
+          <img src="imagenes/arriba2.jpg" alt="" />
+          <div class="imagen-recuadro">
+            <div class="imagen-texto-principal">
+              <p>NOSE SURGERY</p>
+            </div>
+            <div class="imagen-texto-secundario">
+              <p>BOOK AN APPOINTMENT</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="imagen-contenedor wow animate__animated animate__fadeInUp">
+          <img src="imagenes/arriba3.jpg" alt="" />
+          <div class="imagen-recuadro">
+            <div class="imagen-texto-principal">
+              <p>FACIAL CONTOURING</p>
+            </div>
+            <div class="imagen-texto-secundario">
+              <p>BOOK AN APPOINTMENT</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="imagen-contenedor wow animate__animated animate__fadeInUp">
+          <img src="imagenes/arriba4.jpg" alt="" />
+          <div class="imagen-recuadro">
+            <div class="imagen-texto-principal">
+              <p>ANTI-AGING</p>
+            </div>
+            <div class="imagen-texto-secundario">
+              <p>BOOK AN APPOINTMENT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------------section diferentes---------------------------------->
+    <section class="dife wow animate__animated animate__fadeIn">
+      <div class="nosotros ancho wow animate__animated animate__bounceInDown">
+        <h3>WHAT MAKES US DIFFERENT</h3>
+        <hr class="minilogo lineas wow animate__animated animate__heartBeat" />
+      </div>
+      <div class="diferentes ancho">
+        <i class="fa-solid fa-pills wow animate__animated animate__rotateIn"></i>
+        <div class="contenido wow animate__animated animate__zoomIn">
+          <h4>Modern Equipment</h4>
+          <p>
+            We use the latest medical equipment to deliver top-class cosmetic
+            surgery services.
+          </p>
+        </div>
+        <i class="fa-solid fa-user-doctor wow animate__animated animate__jackInTheBox"></i>
+        <div class="contenido wow animate__animated animate__fadeInLeft">
+          <h4>Qualified Doctors and Staff</h4>
+          <p>
+            We use the latest medical equipment to deliver top-class cosmetic
+            surgery services.
+          </p>
+        </div>
+        <i class="fa-solid fa-truck-medical wow animate__animated animate__flip"></i>
+        <div class="contenido wow animate__animated animate__slideInRight">
+          <h4>Effective Results</h4>
+          <p>
+            We use the latest medical equipment to deliver top-class cosmetic
+            surgery services.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <br /><br /><br /><br /><br /><br /><br />
+    <!----------------------------------section diagnostic---------------------------------->
+    <section class="wow animate__animated animate__shakeX">
+      <div class="image-container wow animate__animated animate__zoomIn">
+        <img class="desktop-image wow animate__animated animate__swing" src="imagenes/background-03.jpg" alt="" />
+        <div class="diagnostic ancho wow animate__animated animate__heartBeat">
+          <h2>
+            ALL KINDS <br />
+            OF DIAGNOSTICS
+          </h2>
+        </div>
+        <div class="subdiag ancho">
+          <p>
+            All the services you need. One convenient location. VISAGE Plastic
+            Surgery Clinic has the region’s most comprehensive plastic surgery
+            services available.
+          </p>
+          <br /><br />
+          <a id="btn" class="btnfree ancho" href="#">FREE CONSULTATION</a>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br />
+    <!----------------------------------section Team---------------------------------->
+    <section class="ancho">
+      <div class="nosotros ancho wow animate__animated animate__fadeIn">
+        <h3>OUR TEAM</h3>
+        <hr class="minilogo lineas wow animate__animated animate__wobble" />
+      </div>
+      <div class="efecto-imagenes ancho">
+        <div class="contenedor-imagen wow animate__animated animate__rubberBand">
+          <img src="imagenes/team4.jpg" alt="" />
+          <div class="recuadro-imagen">
+            <div class="texto-principal-imagen wow animate__animated animate__shakeX">
+              <p>Katherine Wong</p>
+              <p>Facial &amp; breast surgery</p>
+            </div>
+            <div class="texto-secundario-imagen">
+              <p>VIEW FULL PROFILE</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="contenedor-imagen wow animate__animated animate__jello">
+          <img src="imagenes/team3.jpg" alt="" />
+          <div class="recuadro-imagen">
+            <div class="texto-principal-imagen wow animate__animated animate__swing">
+              <p>Nicholas Bryant</p>
+              <p>Body contouring</p>
+            </div>
+            <div class="texto-secundario-imagen">
+              <p>VIEW FULL PROFILE</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="contenedor-imagen wow animate__animated animate__heartBeat">
+          <img src="imagenes/team2.jpg" alt="" />
+          <div class="recuadro-imagen">
+            <div class="texto-principal-imagen wow animate__animated animate__bounceIn">
+              <p>Victoria Morgan</p>
+              <p>Facial contouring</p>
+            </div>
+            <div class="texto-secundario-imagen">
+              <p>VIEW FULL PROFILE</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="contenedor-imagen wow animate__animated animate__flash">
+          <img src="imagenes/team1.jpg" alt="" />
+          <div class="recuadro-imagen">
+            <div class="texto-principal-imagen wow animate__animated animate__rotateIn">
+              <p>Walter Jenkins</p>
+              <p>Cosmetic surgery</p>
+            </div>
+            <div class="texto-secundario-imagen">
+              <p>VIEW FULL PROFILE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <a class="btnteam ancho wow animate__animated animate__fadeInUp" href="">VIEW ALL TEAM</a>
+    </section>
+    
+    <br /><br /><br /><br /><br /><br /><br />
+    <!----------------------------------section Testimonial---------------------------------->
+    <section class="wow animate__animated animate__slideInRight">
+      <div class="colorgris ancho">
+        <div class="nosotros ancho">
+          <br /><br /><br /><br /><br />
+          <h3>TESTIMONIALS</h3>
+          <hr class="minilogo lineas" />
+        </div>
+
+        <div id="slider1">
+          <a class="buttons prev" href="#"
+            ><i class="fa-solid fa-angle-left"></i
+          ></a>
+          <div class="viewport">
+            <ul class="overview">
+              <li>
+                <div class="icono"><i class="fa-solid fa-quote-left"></i></div>
+                <div class="contenido">
+                  <p>
+                    The costs of treatments are very reasonable at Visage and I
+                    have always been impressed with the results. The fully
+                    medically qualified team at the clinic is professional,
+                    friendly and trustworthy.
+                  </p>
+                  <img src="imagenes/testimonio1.jpg" alt="" />
+                  <p class="nombre">Betty Wade</p>
+                  <p class="descripcion">Regular Patient</p>
+                </div>
+              </li>
+              <li>
+                <div class="icono"><i class="fa-solid fa-quote-left"></i></div>
+                <div class="contenido">
+                  <p>
+                    Dr. Bryant is a wonderful Doctor, who makes you feel
+                    important and who takes time to listen, which most doctors
+                    don’t do. Loved him from the first visit! Very professional
+                    assistance.
+                  </p>
+                  <img src="imagenes/testimonio2.jpg" alt="" />
+                  <p class="nombre">Stacy Williams</p>
+                  <p class="descripcion">Regular Patient</p>
+                </div>
+              </li>
+              <li>
+                <div class="icono"><i class="fa-solid fa-quote-left"></i></div>
+                <div class="contenido">
+                  <p>
+                    Wonderful people here! They listen to you, and are genuinely
+                    concerned about providing you the best care possible! I
+                    would recommend them to everyone!
+                  </p>
+                  <img src="imagenes/testimonio3.jpg" alt="" />
+                  <p class="nombre">Joan Anderson</p>
+                  <p class="descripcion">Regular Patient</p>
+                </div>
+              </li>
+              <li>
+                <div class="icono"><i class="fa-solid fa-quote-left"></i></div>
+                <div class="contenido">
+                  <p>
+                    The costs of treatments are very reasonable at Visage and I
+                    have always been impressed with the results. The fully
+                    medically qualified team at the clinic is professional,
+                    friendly and trustworthy.
+                  </p>
+                  <img src="imagenes/testimonio1.jpg" alt="" />
+                  <p class="nombre">Betty Wade</p>
+                  <p class="descripcion">Regular Patient</p>
+                </div>
+              </li>
+              <li>
+                <div class="icono"><i class="fa-solid fa-quote-left"></i></div>
+                <div class="contenido">
+                  <p>
+                    Dr. Bryant is a wonderful Doctor, who makes you feel
+                    important and who takes time to listen, which most doctors
+                    don’t do. Loved him from the first visit! Very professional
+                    assistance.
+                  </p>
+                  <img src="imagenes/testimonio2.jpg" alt="" />
+                  <p class="nombre">Stacy Williams</p>
+                  <p class="descripcion">Regular Patient</p>
+                </div>
+              </li>
+              <li>
+                <div class="icono"><i class="fa-solid fa-quote-left"></i></div>
+                <div class="contenido">
+                  <p>
+                    Wonderful people here! They listen to you, and are genuinely
+                    concerned about providing you the best care possible! I
+                    would recommend them to everyone!
+                  </p>
+                  <img src="imagenes/testimonio3.jpg" alt="" />
+                  <p class="nombre">Joan Anderson</p>
+                  <p class="descripcion">Regular Patient</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <a class="buttons next" href="#"
+            ><i class="fa-solid fa-angle-right"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br /><br /><br />
+    <!----------------------------------section LatestBlog---------------------------------->
+    <section class="ancho wow animate__animated animate__fadeInUp">
+      <div class="nosotros ancho">
+        <br /><br /><br /><br /><br />
+        <h3>LATEST BLOG POSTS</h3>
+        <hr class="minilogo lineas" />
+      </div>
+      <div class="uniontablas ancho">
+        <div class="tablablog ancho">
+          <table>
+            <tr>
+              <th><img src="imagenes/blog1.jpg" alt="" /></th>
+            </tr>
+            <tr>
+              <th class="titulrosa">
+                How to manage and prevent age spots this summer
+              </th>
+            </tr>
+            <tr>
+              <td class="tablaalineacion">
+                <table class="lineaderecha">
+                  <tr>
+                    <th class="fechagris">June 21, 2018 at 8:12pm</th>
+                    <th class="by">by <span>Amanda Wells</span></th>
+                    <th class="nombre3">Healthy Lifestyle</th>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th class="guide">
+                Your guide to keeping brown spots at bay. It’s not uncommon to
+                notice freckles and brown spots surfacing and/or darkening as
+                the sunlight intensifies.
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <th><a class="estilobtn" href="#">Healthy</a></th>
+                    <th><a class="estilobtn" href="#">Lifestyle</a></th>
+                    <th><a class="estilobtn" href="#">Summer</a></th>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tablablog ancho">
+          <table>
+            <tr>
+              <th><img src="imagenes/blog2.jpg" alt="" /></th>
+            </tr>
+            <tr>
+              <th class="titulrosa">
+                Why laser skin rejuvenation needs to be on your to-do list
+              </th>
+            </tr>
+            <tr>
+              <td class="tablaalineacion">
+                <table class="lineaderecha">
+                  <tr>
+                    <th class="fechagris">June 21, 2018 at 8:12pm</th>
+                    <th class="by">by <span>Amanda Wells</span></th>
+                    <th class="nombre3">Healthy Lifestyle</th>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th class="guide">
+                Laser treatments fix skin problems. Medical lasers have
+                revolutionized how we fight premature skin ageing.
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <th><a class="estilobtn" href="#">Health</a></th>
+                    <th><a class="estilobtn" href="#">Treatments</a></th>
+                    <th><a class="estilobtn" href="#">Laser</a></th>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <br /><br />
+      <a class="btnteam ancho" href="">VIEW ALL BLOGPOST</a>
+    </section>
+    <br /><br /><br /><br /><br />
+    <!----------------------------------section video---------------------------------->
+    <section class="colorgris ancho">
+      <div class="junto">
+        <div class="video-container ancho">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2xtIv7bSqTs"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="contactus ancho">
+          <h5 class="conta">CONTACT US</h5>
+          <br />
+          <div class="linea-delgada"></div>
+          <br /><br />
+          <i class="icrosa fa-solid fa-phone-volume">
+            <span> 1-800-1234-567, 1-800-6547-321</span></i
+          ><br /><br />
+          <i class="icrosa fa-solid fa-location-dot"
+            ><span>2130 Fulton Street San Diego, CA 94117-1080 USA</span> </i
+          ><br /><br />
+          <i class="icrosa2 fa-solid fa-envelope">
+            <span>info@demolink.org</span></i
+          ><br /><br /><br />
+          <h5 class="conta">NEWSLETTER</h5>
+          <br />
+          <div class="linea-delgada"></div>
+          <br /><br />
+          <p class="enter">
+            Enter your email address to get the latest news, special events and
+            student activities delivered right to your inbox.
+          </p>
+          <br /><br />
+
+          <div class="form-container ancho">
+            <input
+              type="email"
+              id="email-input"
+              placeholder="Enter your e-mail"
+            />
+            <button type="submit">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------------------------footer---------------------------------->
+    <footer>
+      <div class="contenedorfooter ancho">
+        <div class="logofooter">
+          <img src="imagenes/logo-dark.png" alt="" />
+        </div>
+        <div class="copyright">
+          <p>© 2023 All Rights Reserved. Terms of Use and Privacy Policy</p>
+        </div>
+        <div class="iconosfoot">
+          <i class="fa-brands fa-facebook-f" id="facebook-icon"></i>
+          <i class="fa-brands fa-twitter" id="twitter-icon"></i>
+          <i class="fa-brands fa-google-plus-g" id="google-icon"></i>
+          <i class="fa-solid fa-wifi" id="wifi-icon"></i>
+        </div>
+      </div>
+    </footer>
+    <a href="#" id="scrollToTopButton">
+      <span class="arrow">&#8593;</span>
+    </a>
+    
+    
+    <!--------------------------------Scripts-------------------------------------->
+    <script>
+      $(function () {
+        $("#slider4").responsiveSlides({
+          auto: false,
+          pager: false,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          before: function () {
+            $(".events").append("<li>before event fired.</li>");
+          },
+          after: function () {
+            $(".events").append("<li>after event fired.</li>");
+          },
+        });
+      });
+    </script>
+    <!-----Slide textohaciarriba----->
+    <script>
+      const captions = document.querySelectorAll(".image-caption");
+
+      captions.forEach((caption) => {
+        caption.addEventListener("mouseenter", () => {
+          caption.style.height = "auto";
+          const hoverCaption = caption.querySelector(".hover-caption");
+          hoverCaption.style.display = "block";
+        });
+
+        caption.addEventListener("mouseleave", () => {
+          caption.style.height = "auto";
+          const hoverCaption = caption.querySelector(".hover-caption");
+          hoverCaption.style.display = "none";
+        });
+      });
+    </script>
+    <!-----Tinycarousel----->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#slider1").tinycarousel();
+      });
+    </script>
+    <!-----Menu----->
+    <script>
+      function toggleMobileMenu() {
+        var menu = document.getElementById("menu");
+        var menuIcon = document.querySelector(".menu-icon");
+
+        menu.classList.toggle("open");
+        menuIcon.classList.toggle("open");
+      }
+
+      function toggleHeaderMenu() {
+        var headerMenu = document.getElementById("header-menu");
+
+        headerMenu.classList.toggle("open");
+      }
+    </script>
+    <!-----Modal----->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var fondomodal = document.getElementById("modal");
+        var btn = document.getElementById("btn");
+        var cerrar = document.getElementById("cerrar_btn");
+
+        function tiempo() {
+          fondomodal.style.display = "flex";
+        }
+
+        btn.onclick = function () {
+          fondomodal.style.display = "flex";
+        };
+        cerrar.onclick = function () {
+          fondomodal.style.display = "none";
+        };
+
+        window.onclick = function (event) {
+          if (event.target == fondomodal) {
+            fondomodal.style.display = "none";
+          }
+        };
+      });
+    </script>
+    <script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 20) {
+      $('#scrollToTopButton').fadeIn();
+    } else {
+      $('#scrollToTopButton').fadeOut();
+    }
+  });
+
+  $('#scrollToTopButton').click(function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 1000);
+    return false;
+  });
+});
+
+
+    </script>
+  </body>
+</html>
